@@ -1,0 +1,179 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("../images/Background/bg-top.jpg");
+  color: #555555;
+}
+
+h2 {  
+  color: #555555;
+}
+
+div.site-wrapper {
+  width: 990px;
+  height: 100%;
+  margin: 0 auto; 
+  padding: 10px;
+  background: white;
+  margin-bottom: 30px;
+}
+
+div.header {
+  background: #33CCFF; // url("../images/Background/space.gif");
+ // padding-bottom: 15px;
+}
+
+div.header h3,
+div.header ul,
+div.header ul li{
+ display: inline;   
+}
+
+div.header h3 a {
+  text-decoration: none;  
+}
+
+div.header h3 img {
+  position: relative;
+  top: 10px;
+}
+
+div.header ul {
+  padding: 0px;
+  list-style: none;
+  margin-left: 10px; 
+}
+
+div.header ul li {
+  padding-right: 15px;  
+}
+
+div.header ul li a {
+  color: #696969;
+  text-decoration: none;  
+}
+
+div.header ul li a:hover {
+  color: #fc3a7b; 
+}
+
+div.page-content {
+ // padding-left: 5px;
+  min-height: 1024px;
+  text-align:center;
+}
+
+div.page-content h3{
+  color: red;
+    text-align: center;
+}
+
+div.footer { 
+  text-align: center;
+  color:#858484;
+  padding-bottom: 15px;
+}
+
+div.error-display {  
+  color: red;  
+}
+
+div.cat-box {
+  width: 310px;
+  float: left;  
+}
+
+div.cat-box a {
+  text-decoration: none;
+  color: #fc3a7b;  
+}
+
+div.product-box {
+  text-align: center;
+  border: 2px solid #e3e3e3;
+  width: 270px;
+  height: 413px;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+}
+
+div.product-box h3 {
+  color: #fc3a7b;
+  min-height: 66px;
+  margin-top: 5px;
+}
+
+div.product-box a{
+  text-decoration: none;
+  color: #39b3d7; 
+}
+
+li#cart-item span{
+  position: relative;
+  top: -23px;
+  right: 19px;
+}
+
+.form-control {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+//    height: 34px;
+//    padding: 6px 12px;
+//    font-size: 16px;
+//    line-height: 1.42857143;
+//    color: #555;
+//    background-color: #fff;
+//    background-image: none;
+//    border: 1px solid #ccc;
+//    border-radius: 4px;
+//    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+//    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+//    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+//    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+//    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: red;
+    border-color: #ccc;
+}
+
+div.wallpaper {
+   // position: relative;
+   // display: block;
+   // margin-left: 0;
+    background: url("../images/Background/pc-hardware-computer-hd-wallpaper-1920x1200-10094.jpg");
+    width: auto;
+    min-height: inherit;
+}
+
+.article-content p{
+    margin: 0 57px;
+    text-align: left;
+}
+
+div.item-box{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#menu {
+    font-size: larger;
+    padding-bottom: 5px;
+}
+
+div.all-boxes {
+    display: block;
+//    border: 2px solid red;
+    height: 850px;
+    margin: 0 20px;
+    padding-left: 40px;
+}
+
+input.add-to-cart {
+    margin: 5px 0;
+}
